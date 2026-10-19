@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harbor &amp; Bean Café | Specialty Coffee &amp; All-Day Brunch (Demo)</title>
+  <meta name="description" content="Harbor &amp; Bean Café – specialty coffee, fresh pastries and all-day brunch in Anytown. Fictional business, sample website for demonstration.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#16130f">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="./assets/images/hero-1.jpg">
+  <link rel="stylesheet" href="./assets/fonts/fonts.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/site.css">
+</head>
+
+<body id="top">
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true"><symbol id="i-cafe-outline" viewBox="0 0 512 512"><path d="M368 80h64a16 16 0 0116 16v34a46 46 0 01-46 46h-34M96 80h272v192a80 80 0 01-80 80H176a80 80 0 01-80-80V80h0zM64 416h336" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></symbol><symbol id="i-calendar-clear-outline" viewBox="0 0 512 512"><rect fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" x="48" y="80" width="416" height="384" rx="48"/><path fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" stroke-linecap="round" d="M128 48v32M384 48v32M464 160H48"/></symbol><symbol id="i-call-outline" viewBox="0 0 512 512"><path d="M451 374c-15.88-16-54.34-39.35-73-48.76-24.3-12.24-26.3-13.24-45.4.95-12.74 9.47-21.21 17.93-36.12 14.75s-47.31-21.11-75.68-49.39-47.34-61.62-50.53-76.48 5.41-23.23 14.79-36c13.22-18 12.22-21 .92-45.3-8.81-18.9-32.84-57-48.9-72.8C119.9 44 119.9 47 108.83 51.6A160.15 160.15 0 0083 65.37C67 76 58.12 84.83 51.91 98.1s-9 44.38 23.07 102.64 54.57 88.05 101.14 134.49S258.5 406.64 310.85 436c64.76 36.27 89.6 29.2 102.91 23s22.18-15 32.83-31a159.09 159.09 0 0013.8-25.8C465 391.17 468 391.17 451 374z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></symbol><symbol id="i-chevron-back" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M328 112L184 256l144 144"/></symbol><symbol id="i-chevron-down" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M112 184l144 144 144-144"/></symbol><symbol id="i-chevron-forward" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144"/></symbol><symbol id="i-chevron-up" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M112 328l144-144 144 144"/></symbol><symbol id="i-close-outline" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M368 368L144 144M368 144L144 368"/></symbol><symbol id="i-flame-outline" viewBox="0 0 512 512"><path d="M112 320c0-93 124-165 96-272 66 0 192 96 192 272a144 144 0 01-288 0z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M320 368c0 57.71-32 80-64 80s-64-22.29-64-80 40-86 32-128c42 0 96 70.29 96 128z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></symbol><symbol id="i-gift-outline" viewBox="0 0 512 512"><path d="M256 104v56h56a56 56 0 10-56-56zM256 104v56h-56a56 56 0 1156-56z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32"/><rect x="64" y="160" width="384" height="112" rx="32" ry="32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M416 272v144a48 48 0 01-48 48H144a48 48 0 01-48-48V272M256 160v304" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></symbol><symbol id="i-leaf-outline" viewBox="0 0 512 512"><path d="M321.89 171.42C233 114 141 155.22 56 65.22c-19.8-21-8.3 235.5 98.1 332.7 77.79 71 197.9 63.08 238.4-5.92s18.28-163.17-70.61-220.58zM173 253c86 81 175 129 292 147" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></symbol><symbol id="i-location-outline" viewBox="0 0 512 512"><path d="M256 48c-79.5 0-144 61.39-144 137 0 87 96 224.87 131.25 272.49a15.77 15.77 0 0025.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><circle cx="256" cy="192" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></symbol><symbol id="i-mail-outline" viewBox="0 0 512 512"><rect x="48" y="96" width="416" height="320" rx="40" ry="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M112 160l144 112 144-112"/></symbol><symbol id="i-people-outline" viewBox="0 0 512 512"><path d="M402 168c-2.93 40.67-33.1 72-66 72s-63.12-31.32-66-72c-3-42.31 26.37-72 66-72s69 30.46 66 72z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M336 304c-65.17 0-127.84 32.37-143.54 95.41-2.08 8.34 3.15 16.59 11.72 16.59h263.65c8.57 0 13.77-8.25 11.72-16.59C463.85 335.36 401.18 304 336 304z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path d="M200 185.94c-2.34 32.48-26.72 58.06-53 58.06s-50.7-25.57-53-58.06C91.61 152.15 115.34 128 147 128s55.39 24.77 53 57.94z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M206 306c-18.05-8.27-37.93-11.45-59-11.45-52 0-102.1 25.85-114.65 76.2-1.65 6.66 2.53 13.25 9.37 13.25H154" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32"/></symbol><symbol id="i-restaurant-outline" viewBox="0 0 512 512"><path d="M57.49 47.74l368.43 368.43a37.28 37.28 0 010 52.72h0a37.29 37.29 0 01-52.72 0l-90-91.55a32 32 0 01-9.2-22.43v-5.53a32 32 0 00-9.52-22.78l-11.62-10.73a32 32 0 00-29.8-7.44h0a48.53 48.53 0 01-46.56-12.63l-85.43-85.44C40.39 159.68 21.74 83.15 57.49 47.74z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/><path d="M400 32l-77.25 77.25A64 64 0 00304 154.51v14.86a16 16 0 01-4.69 11.32L288 192M320 224l11.31-11.31a16 16 0 0111.32-4.69h14.86a64 64 0 0045.26-18.75L480 112M440 72l-80 80M200 368l-99.72 100.28a40 40 0 01-56.56 0h0a40 40 0 010-56.56L128 328" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></symbol><symbol id="i-time-outline" viewBox="0 0 512 512"><path d="M256 64C150 64 64 150 64 256s86 192 192 192 192-86 192-192S362 64 256 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M256 128v144h96"/></symbol><symbol id="i-wifi-outline" viewBox="0 0 512 512"><path d="M332.41 310.59a115 115 0 00-152.8 0M393.46 249.54a201.26 201.26 0 00-274.92 0M447.72 182.11a288 288 0 00-383.44 0" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M256 416a32 32 0 1132-32 32 32 0 01-32 32z"/></symbol><symbol id="i-paw-outline" viewBox="0 0 512 512"><path d="M457.74 170.1a30.26 30.26 0 00-11.16-2.1h-.4c-20.17.3-42.79 19.19-54.66 47.76-14.23 34.18-7.68 69.15 14.74 78.14a30.21 30.21 0 0011.15 2.1c20.27 0 43.2-19 55.17-47.76 14.13-34.18 7.48-69.15-14.84-78.14zM327.6 303.48C299.8 257.35 287.8 240 256 240s-43.9 17.46-71.7 63.48c-23.8 39.36-71.9 42.64-83.9 76.07a50.91 50.91 0 00-3.6 19.25c0 27.19 20.8 49.2 46.4 49.2 31.8 0 75.1-25.39 112.9-25.39S337 448 368.8 448c25.6 0 46.3-22 46.3-49.2a51 51 0 00-3.7-19.25c-12-33.55-60-36.71-83.8-76.07zM192.51 196a26.53 26.53 0 004-.3c23.21-3.37 37.7-35.53 32.44-71.85C224 89.61 203.22 64 181.49 64a26.53 26.53 0 00-4 .3c-23.21 3.37-37.7 35.53-32.44 71.85C150 170.29 170.78 196 192.51 196zM366.92 136.15c5.26-36.32-9.23-68.48-32.44-71.85a26.53 26.53 0 00-4-.3c-21.73 0-42.47 25.61-47.43 59.85-5.26 36.32 9.23 68.48 32.44 71.85a26.53 26.53 0 004 .3c21.73 0 42.51-25.71 47.43-59.85zM105.77 293.9c22.39-9 28.93-44 14.72-78.14C108.53 187 85.62 168 65.38 168a30.21 30.21 0 00-11.15 2.1c-22.39 9-28.93 44-14.72 78.14C51.47 277 74.38 296 94.62 296a30.21 30.21 0 0011.15-2.1z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></symbol><symbol id="i-star" viewBox="0 0 512 512"><path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/></symbol></svg>
+
+
+  <!-- #SITE TOP: demo label + topbar + header -->
+  <div class="site-top" data-site-top>
+
+    <div class="demo-bar" role="note">
+      <strong>Sample website</strong> · Harbor &amp; Bean Café is a fictional business created for demonstration purposes
+    </div>
+
+    <div class="topbar">
+      <div class="container">
+        <address class="topbar-item">
+          <div class="icon"><svg class="ic"><use href="#i-location-outline"/></svg></div>
+          <span class="span">123 Sample Street, Harbor District, Anytown</span>
+        </address>
+        <div class="separator"></div>
+        <div class="topbar-item item-2">
+          <div class="icon"><svg class="ic"><use href="#i-time-outline"/></svg></div>
+          <span class="span">Open 7 days · from 7:00 AM</span>
+        </div>
+        <a href="tel:+15550142290" class="topbar-item link">
+          <div class="icon"><svg class="ic"><use href="#i-call-outline"/></svg></div>
+          <span class="span">(555) 014-2290</span>
+        </a>
+        <div class="separator"></div>
+        <a href="mailto:hello@example.com" class="topbar-item link">
+          <div class="icon"><svg class="ic"><use href="#i-mail-outline"/></svg></div>
+          <span class="span">hello@example.com</span>
+        </a>
+      </div>
+    </div>
+
+    <header class="header" data-header>
+      <div class="container">
+
+        <a href="#top" class="logo" aria-label="Harbor &amp; Bean Café – home">
+          <span class="logo-small">Café · Est. Anytown</span>
+          <span class="logo-big">Harbor &amp; Bean</span>
+        </a>
+
+        <nav class="navbar" data-navbar aria-label="Main">
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <svg class="ic"><use href="#i-close-outline"/></svg>
+          </button>
+
+          <a href="#top" class="logo">
+            <span class="logo-small">Café · Est. Anytown</span>
+            <span class="logo-big">Harbor &amp; Bean</span>
+          </a>
+
+          <ul class="navbar-list">
+            <li class="navbar-item"><a href="#top" class="navbar-link hover-underline active" data-nav-link><div class="separator"></div><span class="span">Home</span></a></li>
+            <li class="navbar-item"><a href="#menu" class="navbar-link hover-underline" data-nav-link><div class="separator"></div><span class="span">Menu</span></a></li>
+            <li class="navbar-item"><a href="#about" class="navbar-link hover-underline" data-nav-link><div class="separator"></div><span class="span">About</span></a></li>
+            <li class="navbar-item"><a href="#events" class="navbar-link hover-underline" data-nav-link><div class="separator"></div><span class="span">Events</span></a></li>
+            <li class="navbar-item"><a href="#reviews" class="navbar-link hover-underline" data-nav-link><div class="separator"></div><span class="span">Reviews</span></a></li>
+            <li class="navbar-item"><a href="#reserve" class="navbar-link hover-underline" data-nav-link><div class="separator"></div><span class="span">Reserve</span></a></li>
+          </ul>
+
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Visit Us</p>
+            <address class="body-4">123 Sample Street, Harbor District,<br>Anytown, AN 00000</address>
+            <p class="body-4 navbar-text">Open daily · Mon–Thu 7 AM – 9 PM</p>
+            <a href="mailto:hello@example.com" class="body-4 sidebar-link">hello@example.com</a>
+            <div class="separator"></div>
+            <p class="contact-label">Reservations</p>
+            <a href="tel:+15550142290" class="body-1 contact-number hover-underline">(555) 014-2290</a>
+            <a href="#reserve" class="btn-pill btn-pill-block" data-nav-link>
+              <svg class="ic"><use href="#i-calendar-clear-outline"/></svg> Reserve a Table
+            </a>
+          </div>
+        </nav>
+
+        <div class="hdr-actions">
+          <a href="#reserve" class="btn-pill" aria-label="Reserve a table">
+            <svg class="ic"><use href="#i-calendar-clear-outline"/></svg><span class="hide-sm">Reserve</span>
+          </a>
+          <a href="tel:+15550142290" class="hdr-call-ic" aria-label="Call (555) 014-2290"><svg class="ic"><use href="#i-call-outline"/></svg></a>
+          <a href="tel:+15550142290" class="btn btn-secondary hdr-call">
+            <span class="text text-1">Call (555) 014-2290</span>
+            <span class="text text-2" aria-hidden="true">Tap to Call</span>
+          </a>
+        </div>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+
+      </div>
+    </header>
+  </div>
+
+  <main>
+    <article>
+
+      <!-- #HERO -->
+      <section class="hero text-center" aria-label="home" id="home">
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+            <div class="slider-bg">
+              <img src="./assets/images/hero-1.jpg" width="1600" height="1000" alt="" class="img-cover">
+            </div>
+            <p class="label-2 section-subtitle slider-reveal">Specialty coffee · All-day brunch</p>
+            <h1 class="display-1 hero-title slider-reveal">Slow mornings,<br>honest food.</h1>
+            <p class="body-2 hero-text slider-reveal">Locally roasted coffee, fresh-baked pastries and hearty brunch plates served all day in the heart of Anytown.</p>
+            <div class="hero-ctas slider-reveal">
+              <a href="#reserve" class="btn-pill btn-pill-lg"><svg class="ic"><use href="#i-calendar-clear-outline"/></svg> Reserve a Table</a>
+              <a href="tel:+15550142290" class="btn-ghost-call"><svg class="ic"><use href="#i-call-outline"/></svg> (555) 014-2290</a>
+            </div>
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+            <div class="slider-bg">
+              <img src="./assets/images/hero-2.jpg" width="1600" height="1000" alt="" class="img-cover" loading="lazy">
+            </div>
+            <p class="label-2 section-subtitle slider-reveal">Brunch until close</p>
+            <h2 class="display-1 hero-title slider-reveal">Brunch that<br>never clocks out.</h2>
+            <p class="body-2 hero-text slider-reveal">Smashed avocado, pancake stacks and chicken &amp; waffles, cooked to order from open to close.</p>
+            <div class="hero-ctas slider-reveal">
+              <a href="#menu" class="btn btn-primary"><span class="text text-1">View Menu</span><span class="text text-2" aria-hidden="true">View Menu</span></a>
+            </div>
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+            <div class="slider-bg">
+              <img src="./assets/images/hero-3.jpg" width="1600" height="1000" alt="" class="img-cover" loading="lazy">
+            </div>
+            <p class="label-2 section-subtitle slider-reveal">House-roasted beans</p>
+            <h2 class="display-1 hero-title slider-reveal">Poured with care,<br>cup after cup.</h2>
+            <p class="body-2 hero-text slider-reveal">Single-origin espresso and seasonal lattes from baristas who care about every detail.</p>
+            <div class="hero-ctas slider-reveal">
+              <a href="#events" class="btn btn-primary"><span class="text text-1">Catering &amp; Events</span><span class="text text-2" aria-hidden="true">Catering &amp; Events</span></a>
+            </div>
+          </li>
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn><svg class="ic"><use href="#i-chevron-back"/></svg></button>
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn><svg class="ic"><use href="#i-chevron-forward"/></svg></button>
+
+        <a href="#reserve" class="hero-btn has-after">
+          <svg class="ic hero-btn-ic"><use href="#i-cafe-outline"/></svg>
+          <span class="label-2 text-center span">Book a Table</span>
+        </a>
+      </section>
+
+      <!-- #STATS (sample) -->
+      <section class="stats" aria-label="Highlights (sample figures)">
+        <div class="container">
+          <ul class="stats-list">
+            <li class="reveal"><span class="sample-tag">Sample</span><b class="title-1">4.9★</b><span class="label-1">Sample guest rating</span></li>
+            <li class="reveal"><span class="sample-tag">Sample</span><b class="title-1">7 days</b><span class="label-1">Open every week</span></li>
+            <li class="reveal"><span class="sample-tag">Sample</span><b class="title-1">100%</b><span class="label-1">Fresh, made in-house</span></li>
+            <li class="reveal"><span class="sample-tag">Sample</span><b class="title-1">6–40</b><span class="label-1">Guests per private event</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- #SERVICE -->
+      <section class="section service bg-black-10 text-center" aria-label="Why guests love us">
+        <div class="container">
+          <p class="section-subtitle label-2">Why guests love us</p>
+          <h2 class="headline-1 section-title">Made fresh, every single day</h2>
+          <p class="section-text">From the first espresso shot to the last slice of cake, everything is prepared in our own kitchen.</p>
+
+          <ul class="grid-list">
+            <li class="reveal">
+              <div class="service-card">
+                <a href="#menu" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/coffee.jpg" width="285" height="336" loading="lazy" alt="Latte with rosetta latte art" class="img-cover">
+                  </figure>
+                </a>
+                <div class="card-content">
+                  <h3 class="title-4 card-title"><a href="#menu">Specialty Coffee</a></h3>
+                  <p class="card-note label-1">Single-origin beans, roasted in small batches</p>
+                  <a href="#menu" class="btn-text hover-underline label-2">View Menu</a>
+                </div>
+              </div>
+            </li>
+            <li class="reveal">
+              <div class="service-card">
+                <a href="#menu" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/brunch.jpg" width="285" height="336" loading="lazy" alt="Pancake stack with syrup" class="img-cover">
+                  </figure>
+                </a>
+                <div class="card-content">
+                  <h3 class="title-4 card-title"><a href="#menu">All-Day Brunch</a></h3>
+                  <p class="card-note label-1">Big breakfasts and pancakes, open to close</p>
+                  <a href="#menu" class="btn-text hover-underline label-2">View Menu</a>
+                </div>
+              </div>
+            </li>
+            <li class="reveal">
+              <div class="service-card">
+                <a href="#reserve" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/space.jpg" width="285" height="336" loading="lazy" alt="Café dining room with brick wall" class="img-cover">
+                  </figure>
+                </a>
+                <div class="card-content">
+                  <h3 class="title-4 card-title"><a href="#reserve">Cozy Space</a></h3>
+                  <p class="card-note label-1">Fast Wi-Fi, outlets and a calm room</p>
+                  <a href="#reserve" class="btn-text hover-underline label-2">Reserve</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- #ABOUT -->
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+          <div class="about-content reveal">
+            <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+            <h2 class="headline-1 section-title">Good coffee, good company</h2>
+            <p class="section-text">Harbor &amp; Bean started as a small coffee cart with one espresso machine and a big dream. Today we're a full café and kitchen, but our promise hasn't changed: real ingredients, fair prices and a warm welcome for everyone who walks in. We work with local farmers and bakers, roast our own beans and cook everything to order.</p>
+            <ul class="about-checks label-1">
+              <li>Locally sourced ingredients</li>
+              <li>House-roasted beans</li>
+              <li>Family &amp; pet friendly</li>
+              <li>Catering &amp; private events</li>
+            </ul>
+            <div class="contact-label">Book by phone</div>
+            <a href="tel:+15550142290" class="body-1 contact-number hover-underline">(555) 014-2290</a>
+            <a href="#reserve" class="btn btn-primary">
+              <span class="text text-1">Book Your Visit</span>
+              <span class="text text-2" aria-hidden="true">Book Your Visit</span>
+            </a>
+          </div>
+
+          <figure class="about-banner reveal">
+            <img src="./assets/images/barista.jpg" width="570" height="570" loading="lazy" alt="Barista pouring coffee at the espresso bar" class="w-100 about-main" data-parallax-item data-parallax-speed="1">
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/croissant-sq.jpg" width="285" height="285" loading="lazy" alt="Butter croissant and latte" class="w-100 about-sub">
+            </div>
+            <div class="abs-img abs-img-2 has-before">
+              <div class="badge-ring"><span class="badge-big">Fresh</span><span class="badge-small">daily</span></div>
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <!-- #SPECIAL DISH -->
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+        <div class="special-dish-banner">
+          <img src="./assets/images/waffles-tall.jpg" width="1000" height="1111" loading="lazy" alt="Fried chicken on a waffle with syrup" class="img-cover">
+        </div>
+        <div class="special-dish-content bg-black-10">
+          <div class="container reveal">
+            <p class="section-subtitle label-2" id="dish-label">Weekend Special</p>
+            <h2 class="headline-1 section-title">Chicken &amp; Waffles</h2>
+            <p class="section-text">Buttermilk-brined fried chicken on a crisp malted waffle, finished with honey-butter glaze and a pour of warm maple. Pair it with an iced sea-salt mocha for the full Harbor experience.</p>
+            <div class="wrapper">
+              <del class="del body-3">$16.00</del>
+              <span class="span body-1">$14.00</span>
+            </div>
+            <p class="price-note label-1">Sample price · Saturdays &amp; Sundays</p>
+            <a href="#reserve" class="btn-pill btn-pill-lg"><svg class="ic"><use href="#i-calendar-clear-outline"/></svg> Reserve for the Weekend</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- #MENU -->
+      <section class="section menu" aria-label="menu" id="menu">
+        <div class="container">
+          <p class="section-subtitle text-center label-2">Our Menu</p>
+          <h2 class="headline-1 section-title text-center">Guest favorites</h2>
+
+          <h3 class="menu-cat title-2 text-center">Coffee &amp; Drinks</h3>
+          <ul class="grid-list">
+            <li class="reveal"><div class="menu-card hover:card">
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;"><img src="./assets/images/t-latte.jpg" width="100" height="100" loading="lazy" alt="Latte with rosetta latte art" class="img-cover"></figure>
+              <div><div class="title-wrapper"><h4 class="title-3"><span class="card-title">Spanish Latte</span></h4><span class="badge label-1">Best Seller</span><span class="span title-2">$4.50</span></div>
+              <p class="card-text label-1">Espresso, condensed milk and steamed milk. Sweet, smooth, dangerously drinkable.</p></div>
+            </div></li>
+            <li class="reveal"><div class="menu-card hover:card">
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;"><img src="./assets/images/t-mocha.jpg" width="100" height="100" loading="lazy" alt="Iced mocha in a glass" class="img-cover"></figure>
+              <div><div class="title-wrapper"><h4 class="title-3"><span class="card-title">Iced Sea-Salt Mocha</span></h4><span class="span title-2">$5.00</span></div>
+              <p class="card-text label-1">Dark chocolate, double espresso and a cap of salted cream over ice.</p></div>
+            </div></li>
+            <li class="reveal"><div class="menu-card hover:card">
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;"><img src="./assets/images/t-pourover.jpg" width="100" height="100" loading="lazy" alt="Barista preparing coffee" class="img-cover"></figure>
+              <div><div class="title-wrapper"><h4 class="title-3"><span class="card-title">Pour-Over of the Day</span></h4><span class="span title-2">$4.75</span></div>
+              <p class="card-text label-1">Rotating single-origin beans, brewed to order. Ask what is on the bar today.</p></div>
+            </div></li>
+            <li class="reveal"><div class="menu-card hover:card">
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;"><img src="./assets/images/t-matcha.jpg" width="100" height="100" loading="lazy" alt="Matcha latte in a cup" class="img-cover"></figure>
+              <div><div class="title-wrapper"><h4 class="title-3"><span class="card-title">Ube Matcha Cloud</span></h4><span class="span title-2">$5.25</span></div>
+              <p class="card-text label-1">Ceremonial-grade matcha poured over house-made ube milk.</p></div>
+            </div></li>
+          </ul>
+
+          <h3 class="menu-cat title-2 text-center">Brunch Plates</h3>
+          <ul class="grid-list">
+            <li class="reveal"><div class="menu-card hover:card">
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;"><img src="./assets/images/t-breakfast.jpg" width="100" height="100" loading="lazy" alt="Avocado, poached eggs and tomatoes on toast" class="img-cover"></figure>
+              <div><div class="title-wrapper"><h4 class="title-3"><span class="card-title">Harbor Big Breakfast</span></h4><span class="badge label-1">New</span><span class="span title-2">$13.50</span></div>
+              <p class="card-text label-1">Eggs your way, longganisa, garlic rice, toast and dressed greens.</p></div>
+            </div></li>
+            <li class="reveal"><div class="menu-card hover:card">
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;"><img src="./assets/images/t-pancakes.jpg" width="100" height="100" loading="lazy" alt="Stack of pancakes with syrup" class="img-cover"></figure>
+              <div><div class="title-wrapper"><h4 class="title-3"><span class="card-title">Buttermilk Pancake Stack</span></h4><span class="span title-2">$10.00</span></div>
+              <p class="card-text label-1">Three fluffy pancakes, maple syrup, fresh berries and whipped butter.</p></div>
+            </div></li>
+            <li class="reveal"><div class="menu-card hover:card">
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;"><img src="./assets/images/t-avo.jpg" width="100" height="100" loading="lazy" alt="Avocado toast with poached egg" class="img-cover"></figure>
+              <div><div class="title-wrapper"><h4 class="title-3"><span class="card-title">Smashed Avocado Toast</span></h4><span class="span title-2">$11.00</span></div>
+              <p class="card-text label-1">Toasted sourdough, smashed avocado, poached egg and chili flakes.</p></div>
+            </div></li>
+            <li class="reveal"><div class="menu-card hover:card">
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;"><img src="./assets/images/t-waffles.jpg" width="100" height="100" loading="lazy" alt="Fried chicken on a waffle" class="img-cover"></figure>
+              <div><div class="title-wrapper"><h4 class="title-3"><span class="card-title">Chicken &amp; Waffles</span></h4><span class="span title-2">$14.00</span></div>
+              <p class="card-text label-1">Crispy buttermilk fried chicken on a malted waffle with honey-butter glaze.</p></div>
+            </div></li>
+          </ul>
+
+          <h3 class="menu-cat title-2 text-center">Pastries &amp; Sweets</h3>
+          <ul class="grid-list">
+            <li class="reveal"><div class="menu-card hover:card">
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;"><img src="./assets/images/t-croissant.jpg" width="100" height="100" loading="lazy" alt="Butter croissant with a latte" class="img-cover"></figure>
+              <div><div class="title-wrapper"><h4 class="title-3"><span class="card-title">Butter Croissant</span></h4><span class="span title-2">$3.50</span></div>
+              <p class="card-text label-1">Laminated in-house and baked fresh every morning. Best with a flat white.</p></div>
+            </div></li>
+            <li class="reveal"><div class="menu-card hover:card">
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;"><img src="./assets/images/t-cheesecake.jpg" width="100" height="100" loading="lazy" alt="Slice of Basque burnt cheesecake" class="img-cover"></figure>
+              <div><div class="title-wrapper"><h4 class="title-3"><span class="card-title">Basque Burnt Cheesecake</span></h4><span class="span title-2">$6.00</span></div>
+              <p class="card-text label-1">Creamy, barely-set center under a deeply caramelized top.</p></div>
+            </div></li>
+          </ul>
+
+          <p class="menu-text text-center">Prices shown are sample prices · Vegetarian &amp; gluten-free options available · Oat milk <span class="span">+$0.75</span></p>
+
+          <a href="#reserve" class="btn-pill btn-pill-lg menu-msgr"><svg class="ic"><use href="#i-calendar-clear-outline"/></svg> Reserve a Table</a>
+        </div>
+      </section>
+
+      <!-- #EVENTS / CATERING -->
+      <section class="section event bg-black-10" aria-labelledby="events-label" id="events">
+        <div class="container">
+          <p class="section-subtitle label-2 text-center" id="events-label">Catering &amp; private events</p>
+          <h2 class="section-title headline-1 text-center">Let us host your next gathering</h2>
+          <p class="section-text text-center bilao-intro">Birthdays, team breakfasts or a quiet bridal brunch. Book at least 3 days ahead (sample terms).</p>
+
+          <ul class="grid-list">
+            <li class="reveal">
+              <div class="event-card has-before hover:shine">
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-room.jpg" width="350" height="450" loading="lazy" alt="Café back room with tables" class="img-cover">
+                  <span class="publish-date label-2">6–24 guests</span>
+                </div>
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Private Room</p>
+                  <h3 class="card-title title-2 text-center">Back Room Brunch</h3>
+                  <p class="tray-price text-center">from <b>$22</b> / guest</p>
+                </div>
+              </div>
+            </li>
+            <li class="reveal">
+              <div class="event-card has-before hover:shine">
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-pastry.jpg" width="350" height="450" loading="lazy" alt="Croissant and coffee" class="img-cover">
+                  <span class="publish-date label-2">12 pastries</span>
+                </div>
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Office Catering</p>
+                  <h3 class="card-title title-2 text-center">Pastry &amp; Coffee Box</h3>
+                  <p class="tray-price text-center">from <b>$48</b></p>
+                </div>
+              </div>
+            </li>
+            <li class="reveal">
+              <div class="event-card has-before hover:shine">
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-coffee.jpg" width="350" height="450" loading="lazy" alt="Barista pouring latte art" class="img-cover">
+                  <span class="publish-date label-2">2 hours</span>
+                </div>
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">On Location</p>
+                  <h3 class="card-title title-2 text-center">Espresso Cart Hire</h3>
+                  <p class="tray-price text-center">from <b>$350</b></p>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <p class="menu-text text-center bilao-note">Sample prices · Custom menus for 40+ guests on request</p>
+          <a href="#reserve" class="btn btn-primary">
+            <span class="text text-1">Ask About Events</span>
+            <span class="text text-2" aria-hidden="true">Ask About Events</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- #TESTIMONIALS (sample) -->
+      <section class="section testi text-center has-bg-image" aria-labelledby="reviews-label" id="reviews">
+        <div class="container">
+          <span class="sample-badge">Sample testimonials</span>
+          <h2 class="headline-1 section-title" id="reviews-label">What guests are saying</h2>
+          <p class="section-text testi-sub">Placeholder reviews for demonstration. Real customer reviews would appear here.</p>
+
+          <ul class="testi-grid">
+            <li class="testi-card reveal">
+              <div class="quote">”</div>
+              <div class="stars" aria-label="5 stars">★★★★★</div>
+              <p class="testi-text body-4">“The Spanish latte is the best I've had in town, and the big breakfast keeps me full until dinner.”</p>
+              <p class="label-2 profile-name">Maria S.</p>
+              <p class="testi-tag label-1">Sample review</p>
+            </li>
+            <li class="testi-card reveal">
+              <div class="quote">”</div>
+              <div class="stars" aria-label="5 stars">★★★★★</div>
+              <p class="testi-text body-4">“Perfect spot to work for a few hours. Friendly staff, fast Wi-Fi and amazing cheesecake.”</p>
+              <p class="label-2 profile-name">James T.</p>
+              <p class="testi-tag label-1">Sample review</p>
+            </li>
+            <li class="testi-card reveal">
+              <div class="quote">”</div>
+              <div class="stars" aria-label="5 stars">★★★★★</div>
+              <p class="testi-text body-4">“We booked the back room for my mom's birthday. The team made it so easy and the food was a hit.”</p>
+              <p class="label-2 profile-name">Angela R.</p>
+              <p class="testi-tag label-1">Sample review</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- #RESERVATION -->
+      <section class="reservation" id="reserve" aria-labelledby="reserve-label">
+        <div class="container">
+          <div class="form reservation-form bg-black-10">
+
+            <form action="#" class="form-left" onsubmit="alert('Demo form: in a live site this would send a reservation request.');return false;">
+              <h2 class="headline-1 text-center" id="reserve-label">Save Your Seat</h2>
+              <p class="form-text text-center">Walk-ins are always welcome. For groups of 6+, birthdays or catering, call <a href="tel:+15550142290" class="link">(555) 014-2290</a> or send a request and we'll confirm within the day.</p>
+
+              <div class="input-wrapper">
+                <label class="sr-only" for="f-name">Name</label>
+                <input id="f-name" type="text" name="name" placeholder="Your Name" autocomplete="name" class="input-field" required>
+                <label class="sr-only" for="f-phone">Phone number</label>
+                <input id="f-phone" type="tel" name="phone" placeholder="Phone (555) 000-0000" autocomplete="tel" inputmode="tel" class="input-field">
+              </div>
+
+              <div class="input-wrapper">
+                <div class="icon-wrapper">
+                  <svg class="ic"><use href="#i-people-outline"/></svg>
+                  <label class="sr-only" for="f-guests">Guests</label>
+                  <select id="f-guests" name="guests" class="input-field">
+                    <option>2 guests</option>
+                    <option>3–4 guests</option>
+                    <option>5–6 guests</option>
+                    <option>7+ guests</option>
+                  </select>
+                  <svg class="ic"><use href="#i-chevron-down"/></svg>
+                </div>
+                <div class="icon-wrapper">
+                  <svg class="ic"><use href="#i-calendar-clear-outline"/></svg>
+                  <label class="sr-only" for="f-date">Date</label>
+                  <input id="f-date" type="date" name="date" class="input-field">
+                  <svg class="ic"><use href="#i-chevron-down"/></svg>
+                </div>
+                <div class="icon-wrapper">
+                  <svg class="ic"><use href="#i-time-outline"/></svg>
+                  <label class="sr-only" for="f-time">Time</label>
+                  <select id="f-time" name="time" class="input-field">
+                    <option>Breakfast (7–11 AM)</option>
+                    <option>Lunch (11 AM–3 PM)</option>
+                    <option>Afternoon (3–6 PM)</option>
+                    <option>Evening (6 PM+)</option>
+                  </select>
+                  <svg class="ic"><use href="#i-chevron-down"/></svg>
+                </div>
+              </div>
+
+              <label class="sr-only" for="f-msg">Notes</label>
+              <textarea id="f-msg" name="message" placeholder="Notes: occasion, seating preference, dietary needs…" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Request Reservation</span>
+                <span class="text text-2" aria-hidden="true">Request Reservation</span>
+              </button>
+            </form>
+
+            <div class="form-right text-center">
+              <h2 class="headline-1 text-center">Hours &amp; Location</h2>
+              <table class="hours-table">
+                <tr><td>Mon – Thu</td><td>7:00 AM – 9:00 PM</td></tr>
+                <tr><td>Friday</td><td>7:00 AM – 11:00 PM</td></tr>
+                <tr><td>Saturday</td><td>8:00 AM – 11:00 PM</td></tr>
+                <tr><td>Sunday</td><td>8:00 AM – 8:00 PM</td></tr>
+              </table>
+              <p class="contact-label">Call us</p>
+              <a href="tel:+15550142290" class="body-1 contact-number hover-underline">(555) 014-2290</a>
+              <p class="contact-label">Find us</p>
+              <address class="body-4">123 Sample Street, Harbor District<br>Anytown, AN 00000</address>
+              <p class="body-4"><a href="mailto:hello@example.com" class="sidebar-link">hello@example.com</a></p>
+              <div class="map-ph" role="img" aria-label="Map placeholder"><svg class="ic"><use href="#i-location-outline"/></svg>Map placeholder · Google Maps embed goes here</div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- #FEATURES -->
+      <section class="section features text-center" aria-label="Why choose us">
+        <div class="container">
+          <p class="section-subtitle label-2">The Harbor way</p>
+          <h2 class="headline-1 section-title">Why regulars keep coming back</h2>
+          <ul class="grid-list">
+            <li class="feature-item reveal"><div class="feature-card">
+              <div class="card-icon"><svg class="ic"><use href="#i-cafe-outline"/></svg></div>
+              <h3 class="title-2 card-title">House Roasted</h3>
+              <p class="label-1 card-text">Small-batch beans roasted every week for peak flavor.</p>
+            </div></li>
+            <li class="feature-item reveal"><div class="feature-card">
+              <div class="card-icon"><svg class="ic"><use href="#i-leaf-outline"/></svg></div>
+              <h3 class="title-2 card-title">Local &amp; Fresh</h3>
+              <p class="label-1 card-text">Eggs, produce and bread from nearby farms and bakers.</p>
+            </div></li>
+            <li class="feature-item reveal"><div class="feature-card">
+              <div class="card-icon"><svg class="ic"><use href="#i-wifi-outline"/></svg></div>
+              <h3 class="title-2 card-title">Work-Friendly</h3>
+              <p class="label-1 card-text">Fast Wi-Fi, plenty of outlets and a calm room.</p>
+            </div></li>
+            <li class="feature-item reveal"><div class="feature-card">
+              <div class="card-icon"><svg class="ic"><use href="#i-paw-outline"/></svg></div>
+              <h3 class="title-2 card-title">Family &amp; Pets</h3>
+              <p class="label-1 card-text">High chairs inside, water bowls on the patio.</p>
+            </div></li>
+          </ul>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- #FOOTER -->
+  <footer class="footer section has-bg-image text-center">
+    <div class="container">
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+          <a href="#top" class="logo">
+            <span class="logo-small">Café · Est. Anytown</span>
+            <span class="logo-big">Harbor &amp; Bean</span>
+          </a>
+          <address class="body-4">123 Sample Street, Anytown, AN 00000</address>
+          <a href="mailto:hello@example.com" class="body-4 contact-link">hello@example.com</a>
+          <a href="tel:+15550142290" class="body-4 contact-link">Call: (555) 014-2290</a>
+          <p class="body-4">Open 7 days a week</p>
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+          <p class="title-1">See you soon</p>
+          <p class="label-1">Walk-ins welcome, reservations recommended on weekends.</p>
+          <a href="#reserve" class="btn-pill btn-pill-block"><svg class="ic"><use href="#i-calendar-clear-outline"/></svg> Reserve a Table</a>
+        </div>
+
+        <ul class="footer-list">
+          <li><a href="#top" class="label-2 footer-link hover-underline">Home</a></li>
+          <li><a href="#menu" class="label-2 footer-link hover-underline">Menu</a></li>
+          <li><a href="#about" class="label-2 footer-link hover-underline">About</a></li>
+          <li><a href="#events" class="label-2 footer-link hover-underline">Events</a></li>
+          <li><a href="#reserve" class="label-2 footer-link hover-underline">Reserve</a></li>
+        </ul>
+
+        <ul class="footer-list">
+          <li><a href="#" class="label-2 footer-link hover-underline">Instagram</a></li>
+          <li><a href="#" class="label-2 footer-link hover-underline">Facebook</a></li>
+          <li><a href="#" class="label-2 footer-link hover-underline">Yelp</a></li>
+          <li><a href="#" class="label-2 footer-link hover-underline">Google Maps</a></li>
+          <li><a href="mailto:hello@example.com" class="label-2 footer-link hover-underline">Email</a></li>
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">© 2026 Harbor &amp; Bean Café (fictional business) · 123 Sample Street, Anytown · (555) 014-2290. This is a sample website for demonstration purposes; names, prices, reviews and contact details are placeholders.</p>
+        <details class="credits">
+          <summary>Photo &amp; design credits</summary>
+          <p>Design based on the <a href="https://github.com/codewithsadee/grilli" class="link" target="_blank" rel="noopener">Grilli</a> template by codewithsadee (MIT License). Icons: <a href="https://ionic.io/ionicons" class="link" target="_blank" rel="noopener">Ionicons</a> (MIT). Fonts: DM Sans, Forum (SIL OFL 1.1).</p>
+          <p>Photos via Wikimedia Commons: <a class="link" href="https://commons.wikimedia.org/wiki/File:Barista_prepares_espresso_at_coffee_shop.jpg" target="_blank" rel="noopener">Barista prepares espresso at coffee shop</a> by Shixart1985 (CC BY 2.0); <a class="link" href="https://commons.wikimedia.org/wiki/File:Avocado_%26_Egg_Smash_-_Trading_Post_Coffee_Roasters_2026-06-19.jpg" target="_blank" rel="noopener">Avocado &amp; Egg Smash - Trading Post Coffee Roasters 2026-06-19</a> by Andy Li (CC0); <a class="link" href="https://commons.wikimedia.org/wiki/File:Latte_art_0.jpg" target="_blank" rel="noopener">Latte art 0</a> by Angela CoffeeRank (CC BY 2.0); <a class="link" href="https://commons.wikimedia.org/wiki/File:Latte_art_%22Rosetta%22.jpg" target="_blank" rel="noopener">Latte art &quot;Rosetta&quot;</a> by Maxstein5 (CC BY-SA 4.0); <a class="link" href="https://commons.wikimedia.org/wiki/File:Eating_Pancakes_(Unsplash).jpg" target="_blank" rel="noopener">Eating Pancakes (Unsplash)</a> by Gabriel Gurrola gabrielgurrola (CC0); <a class="link" href="https://commons.wikimedia.org/wiki/File:Empty_coffee_shop_interior_with_wooden_table_and_water_skis.jpg" target="_blank" rel="noopener">Empty coffee shop interior with wooden table and water skis</a> by Drew Coffman (CC0); <a class="link" href="https://commons.wikimedia.org/wiki/File:Passion_Pour_(Unsplash).jpg" target="_blank" rel="noopener">Passion Pour (Unsplash)</a> by Nathan Dumlao nate_dumlao (CC0); <a class="link" href="https://commons.wikimedia.org/wiki/File:All_butter_croissant_and_latte_-_Blend_Coffee_Co._2026-01-02.jpg" target="_blank" rel="noopener">All butter croissant and latte - Blend Coffee Co. 2026-01-02</a> by Andy Li (CC0); <a class="link" href="https://commons.wikimedia.org/wiki/File:The_girl_and_the_fig_sonoma_pop-up_-_brunch_4.jpg" target="_blank" rel="noopener">The girl and the fig sonoma pop-up - brunch 4</a> by Missvain (CC BY 4.0); <a class="link" href="https://commons.wikimedia.org/wiki/File:Iced_mocha_-_ease_2025-08-29.jpg" target="_blank" rel="noopener">Iced mocha - ease 2025-08-29</a> by Andy Li (CC0); <a class="link" href="https://commons.wikimedia.org/wiki/File:Matcha_Green_Tea_Latte_(35487991553).jpg" target="_blank" rel="noopener">Matcha Green Tea Latte (35487991553)</a> by NuCastiel from Bangkok, Thailand (CC BY 2.0); <a class="link" href="https://commons.wikimedia.org/wiki/File:Smashed_avocado_%26_poached_eggs_-_M%26S_Caf%C3%A9_2023-12-28.jpg" target="_blank" rel="noopener">Smashed avocado &amp; poached eggs - M&amp;S Café 2023-12-28</a> by Andy Li (CC0); <a class="link" href="https://commons.wikimedia.org/wiki/File:San_Sebastian_Cheesecake.jpg" target="_blank" rel="noopener">San Sebastian Cheesecake</a> by Stolbovsky (CC BY-SA 3.0). Images were resized/cropped.</p>
+        </details>
+      </div>
+    </div>
+  </footer>
+
+  <!-- #FLOATING ACTIONS (mobile) -->
+  <div class="fab-bar" aria-label="Quick contact">
+    <a href="tel:+15550142290" class="fab fab-call"><svg class="ic"><use href="#i-call-outline"/></svg> Call Now</a>
+    <a href="#reserve" class="fab fab-reserve"><svg class="ic"><use href="#i-calendar-clear-outline"/></svg> Reserve</a>
+  </div>
+
+  <!-- #BACK TO TOP (desktop) -->
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <svg class="ic"><use href="#i-chevron-up"/></svg>
+  </a>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
