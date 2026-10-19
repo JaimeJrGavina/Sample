@@ -24,14 +24,10 @@ Template CSS in assets/css/style.css (font stack edited), overrides in assets/cs
 
 | File | Used for | Source | Author / owner | License / permission |
 |---|---|---|---|---|
-| `assets/images/hero-1.jpg` | hero slide 1 | Stock: [Kare-kare (Philippines) 01](https://commons.wikimedia.org/wiki/File%3AKare-kare_%28Philippines%29_01.jpg) (Wikimedia Commons) | Obsidian Soul | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |
-| `assets/images/hero-2.jpg` | hero slide 2 | Stock: [Crispy pata](https://commons.wikimedia.org/wiki/File%3ACrispy_pata.jpg) (Wikimedia Commons) | roland on flickr | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
-| `assets/images/hero-3.jpg` | hero slide 3 | Stock: [Pinakbet](https://commons.wikimedia.org/wiki/File%3APinakbet.jpg) (Wikimedia Commons) | Shubert Ciencia from Nueva Ecija, Philippines | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
-| `assets/images/card-1.jpg` | featured card: Ulam | Stock: [Kare-kare (Philippines) 02](https://commons.wikimedia.org/wiki/File%3AKare-kare_%28Philippines%29_02.jpg) (Wikimedia Commons) | Obsidian Soul | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |
-| `assets/images/card-2.jpg` | featured card: Sabaw & Seafood | Stock: [Crispy pata](https://commons.wikimedia.org/wiki/File%3ACrispy_pata.jpg) (Wikimedia Commons) | roland on flickr | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
-| `assets/images/card-3.jpg` | featured card: Gulay | Stock: [Pinakbet](https://commons.wikimedia.org/wiki/File%3APinakbet.jpg) (Wikimedia Commons) | Shubert Ciencia from Nueva Ecija, Philippines | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
-| `assets/images/about-main.jpg` | about photo | Stock: [Oxtail kare-kare 1](https://commons.wikimedia.org/wiki/File%3AOxtail_kare-kare_1.JPG) (Wikimedia Commons) | BrokenSphere | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) |
-| `assets/images/about-sub.jpg` | about inset photo | Stock: [Kare-kare (Philippines) 01](https://commons.wikimedia.org/wiki/File%3AKare-kare_%28Philippines%29_01.jpg) (Wikimedia Commons) | Obsidian Soul | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |
+| `assets/images/hero-1.jpg` | hero slide 1 | Stock: [Chopped nuts and herbs on a wooden cutting board in a kitchen setting](https://commons.wikimedia.org/wiki/File%3AChopped_nuts_and_herbs_on_a_wooden_cutting_board_in_a_kitchen_setting.jpg) (Wikimedia Commons) | Shixart1985 | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
+| `assets/images/hero-2.jpg` | hero slide 2 | Stock: [A bowl of rice](https://commons.wikimedia.org/wiki/File%3AA_bowl_of_rice.jpg) (Wikimedia Commons) | Douglas Perkins | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |
+| `assets/images/about-main.jpg` | about photo | Stock: [Chopped nuts and herbs on a wooden cutting board in a kitchen setting](https://commons.wikimedia.org/wiki/File%3AChopped_nuts_and_herbs_on_a_wooden_cutting_board_in_a_kitchen_setting.jpg) (Wikimedia Commons) | Shixart1985 | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
+| `assets/images/about-sub.jpg` | about inset photo | Stock: [A bowl of rice](https://commons.wikimedia.org/wiki/File%3AA_bowl_of_rice.jpg) (Wikimedia Commons) | Douglas Perkins | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |
 
 Changes: stock photos were resized and cropped by the kit; some are tinted or softened with CSS overlays on the page. Stock photos are placeholders until the client supplies their own.
 

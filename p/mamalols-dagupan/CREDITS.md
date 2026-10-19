@@ -26,12 +26,8 @@ Template CSS in assets/css/style.css (font stack edited), overrides in assets/cs
 |---|---|---|---|---|
 | `assets/images/hero-1.jpg` | hero slide 1 | Stock: [Honey-glazed ham](https://commons.wikimedia.org/wiki/File%3AHoney-glazed_ham.jpg) (Wikimedia Commons) | Daniel Hanson from Phoenix AZ, USA | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
 | `assets/images/hero-2.jpg` | hero slide 2 | Stock: [Glazed ham dish at a restaurant](https://commons.wikimedia.org/wiki/File%3AGlazed_ham_dish_at_a_restaurant.jpg) (Wikimedia Commons) | City Foodsters | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
-| `assets/images/hero-3.jpg` | hero slide 3 | Stock: [Charings Halo-Halo](https://commons.wikimedia.org/wiki/File%3ACharings_Halo-Halo.jpg) (Wikimedia Commons) | Aerous | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
-| `assets/images/card-1.jpg` | featured card: The Ham | Stock: [Glazed ham dish at a restaurant](https://commons.wikimedia.org/wiki/File%3AGlazed_ham_dish_at_a_restaurant.jpg) (Wikimedia Commons) | City Foodsters | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
-| `assets/images/card-2.jpg` | featured card: Lumpia & Rice | Stock: [Lumpiang Shanghai fried](https://commons.wikimedia.org/wiki/File%3ALumpiang_Shanghai_fried.jpg) (Wikimedia Commons) | Aerous | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
-| `assets/images/card-3.jpg` | featured card: Merienda | Stock: [Charings Halo-Halo](https://commons.wikimedia.org/wiki/File%3ACharings_Halo-Halo.jpg) (Wikimedia Commons) | Aerous | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
 | `assets/images/about-main.jpg` | about photo | Stock: [Honey-glazed ham](https://commons.wikimedia.org/wiki/File%3AHoney-glazed_ham.jpg) (Wikimedia Commons) | Daniel Hanson from Phoenix AZ, USA | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
-| `assets/images/about-sub.jpg` | about inset photo | Stock: [Lumpiang Shanghai fried](https://commons.wikimedia.org/wiki/File%3ALumpiang_Shanghai_fried.jpg) (Wikimedia Commons) | Aerous | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
+| `assets/images/about-sub.jpg` | about inset photo | Stock: [Glazed ham dish at a restaurant](https://commons.wikimedia.org/wiki/File%3AGlazed_ham_dish_at_a_restaurant.jpg) (Wikimedia Commons) | City Foodsters | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
 
 Changes: stock photos were resized and cropped by the kit; some are tinted or softened with CSS overlays on the page. Stock photos are placeholders until the client supplies their own.
 
