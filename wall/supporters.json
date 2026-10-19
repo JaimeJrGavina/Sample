@@ -1,0 +1,9 @@
+{
+  "_readme": "See README.md. Add a real supporter ONLY after Jaime confirms the payment arrived in PayPal. Placeholder entries are example slots and are never linked or ranked.",
+  "supporters": [
+    { "name": "Your name here", "url": null, "amount": null, "date": null, "placeholder": true },
+    { "name": "Your name here", "url": null, "amount": null, "date": null, "placeholder": true },
+    { "name": "Your name here", "url": null, "amount": null, "date": null, "placeholder": true },
+    { "name": "Your name here", "url": null, "amount": null, "date": null, "placeholder": true }
+  ]
+}
