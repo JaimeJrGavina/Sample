@@ -24,13 +24,14 @@ Template CSS in assets/css/style.css (font stack edited), overrides in assets/cs
 
 | File | Used for | Source | Author / owner | License / permission |
 |---|---|---|---|---|
-| `assets/images/hero-1.jpg` | hero slide 1 | Stock: [Roasted arabica coffee beans Minca](https://commons.wikimedia.org/wiki/File:Roasted_arabica_coffee_beans_Minca.jpg) (Wikimedia Commons) | Roger Burger | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |
-| `assets/images/hero-2.jpg` | hero slide 2 | Stock: [Pre-roasted Coffee Beans (11516809276)](https://commons.wikimedia.org/wiki/File:Pre-roasted_Coffee_Beans_(11516809276).jpg) (Wikimedia Commons) | Paul Galow from Berlin, Germany | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
-| `assets/images/hero-3.jpg` | hero slide 3 | Stock: [Roasted coffee beans (14562943389)](https://commons.wikimedia.org/wiki/File:Roasted_coffee_beans_(14562943389).jpg) (Wikimedia Commons) | Andreas Poike | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
-| `assets/images/about-main.jpg` | about photo | Stock: [Coffee sacks edges](https://commons.wikimedia.org/wiki/File:Coffee_sacks_edges.jpg) (Wikimedia Commons) | Downtowngal | Public domain |
-| `assets/images/about-sub.jpg` | about inset photo | Stock: [Drip filter coffee after pouring water](https://commons.wikimedia.org/wiki/File:Drip_filter_coffee_after_pouring_water.jpg) (Wikimedia Commons) | Suginami | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |
-
-Changes: stock photos were resized and cropped by the kit; some are tinted or softened with CSS overlays on the page. Stock photos are placeholders until the client supplies their own.
+| `assets/images/hero-1.jpg` | hero slide 1 | Client-supplied (`extra-650718182.jpg`) | The Red Soil Coffee | Emailed by theredsoilcoffee@gmail.com on 2026-10-30 (thread 1a18a4faa7de22fa; msgs 1a18acc6ef9a44ae and 1a18ad6466a32f97) for use in the preview |
+| `assets/images/hero-2.jpg` | hero slide 2 | Client-supplied (`20250105_142148.jpg`) | The Red Soil Coffee | Emailed by theredsoilcoffee@gmail.com on 2026-10-30 (thread 1a18a4faa7de22fa; msgs 1a18acc6ef9a44ae and 1a18ad6466a32f97) for use in the preview |
+| `assets/images/hero-3.jpg` | hero slide 3 | Client-supplied (`extra-653956720.jpg`) | The Red Soil Coffee | Emailed by theredsoilcoffee@gmail.com on 2026-10-30 (thread 1a18a4faa7de22fa; msgs 1a18acc6ef9a44ae and 1a18ad6466a32f97) for use in the preview |
+| `assets/images/card-1.jpg` | featured card: Single origins | Client-supplied (`drying-beds.jpg`) | The Red Soil Coffee | Emailed by theredsoilcoffee@gmail.com on 2026-10-30 (thread 1a18a4faa7de22fa; msgs 1a18acc6ef9a44ae and 1a18ad6466a32f97) for use in the preview |
+| `assets/images/card-2.jpg` | featured card: 2 Ridges espresso | Client-supplied (`brochure-2ridges.jpg`) | The Red Soil Coffee | Emailed by theredsoilcoffee@gmail.com on 2026-10-30 (thread 1a18a4faa7de22fa; msgs 1a18acc6ef9a44ae and 1a18ad6466a32f97) for use in the preview |
+| `assets/images/card-3.jpg` | featured card: For cafés | Client-supplied (`brochure-erlinda-cafes.jpg`) | The Red Soil Coffee | Emailed by theredsoilcoffee@gmail.com on 2026-10-30 (thread 1a18a4faa7de22fa; msgs 1a18acc6ef9a44ae and 1a18ad6466a32f97) for use in the preview |
+| `assets/images/about-main.jpg` | about photo | Client-supplied (`extra-0ec7dea5.jpg`) | The Red Soil Coffee | Emailed by theredsoilcoffee@gmail.com on 2026-10-30 (thread 1a18a4faa7de22fa; msgs 1a18acc6ef9a44ae and 1a18ad6466a32f97) for use in the preview |
+| `assets/images/about-sub.jpg` | about inset photo | Client-supplied (`extra-650761598.jpg`) | The Red Soil Coffee | Emailed by theredsoilcoffee@gmail.com on 2026-10-30 (thread 1a18a4faa7de22fa; msgs 1a18acc6ef9a44ae and 1a18ad6466a32f97) for use in the preview |
 
 ## Reviews
 
